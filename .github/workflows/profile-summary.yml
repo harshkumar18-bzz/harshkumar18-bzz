@@ -1,0 +1,35 @@
+name: Refresh profile charts
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/profile-summary.yml"
+  schedule:
+    - cron: "30 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+
+      - name: Generate profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@e722eded97059b31d7e8ad3ae0267b74ff24172d
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          UTC_OFFSET: 5.5
+          THEME: github_dark
+          ANIMATION: draw
+          DURATION: 2.5
+          NAME: Harsh Kumar
+          AUTO_PUSH: true
