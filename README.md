@@ -42,6 +42,22 @@ and contribute focused improvements to open-source projects.
   <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111" />
 </p>
 
+## Developer dashboard
+
+<div align="center">
+
+<img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" width="49%" alt="Repositories by language" />
+<img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" width="49%" alt="Commits by language" />
+
+<br />
+
+<img src="./profile-summary-card-output/github_dark/4-productive-time.svg" width="49%" alt="Productive coding time" />
+
+<br />
+<sub>Charts are generated from public GitHub activity and refreshed automatically each day.</sub>
+
+</div>
+
 ## Featured projects
 
 | Project | What it does | Built with |
