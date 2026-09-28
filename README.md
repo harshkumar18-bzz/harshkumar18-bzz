@@ -49,16 +49,7 @@
 
 <div align="center">
 
-<img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" width="49%" alt="Repositories by language" />
-<img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" width="49%" alt="Commits by language" />
-
-<br />
-
-<img src="./profile-summary-card-output/github_dark/4-productive-time.svg" width="49%" alt="Productive coding time" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=harshkumar18-bzz&theme=tokyonight&hide_border=true&background=0D1117" width="49%" alt="GitHub streak" />
-
-<br />
-<sub>Charts are generated from public GitHub activity and refreshed automatically each day.</sub>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=harshkumar18-bzz&theme=tokyonight&hide_border=true&background=0D1117" width="70%" alt="GitHub streak" />
 
 </div>
 
