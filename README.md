@@ -1,6 +1,6 @@
 # Harsh Kumar
 
-B.Tech student (Electronics & Communication Engineering, minor in Money & Banking) at IIIT Allahabad. I write backend and tooling code, mostly in Java and Go, and contribute to open-source projects.
+B.Tech student  at IIIT Allahabad. I write backend and tooling code, mostly in Java and Go, and contribute to open-source projects.
 
 I also do competitive programming (Codeforces Specialist, CodeChef 3-star) and was a national semifinalist at Flipkart GRID 8.0.
 
